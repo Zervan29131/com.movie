@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>电影网</title>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/play.css">
+</head>
+
+<body>
+    <script type="text/javascript" color="255,0,0" opacity='0.7' zIndex="-2" count="200" src="./js/canvas.js"></script>
+
+    <!-- 顶部top -->
+    <div id="top">
+        <div class="top_main">
+            <div class="top_main_left">
+                <p>欢迎来到电影网，一起分享电影给我们带来的快乐。</p>
+            </div>
+            <div class="top_main_right">
+                <a class="top_main_right_1" href="">保存到桌面</a>
+                <a class="top_main_right_2" href="">Ctrl+D 加入收藏夹</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- header部分 -->
+    <header>
+        <div class="logo">
+            <h1>
+                <a href="#"><img src="./images/logo.png" alt="电影网"></a>
+                <!-- 超链接 -->
+            </h1>
+        </div>
+        <div class="search">
+            <form action="" method="post">
+                <input type="search" name="search" placeholder="请输入电影名字">
+                <input type="submit" name="anniu" value="搜索">
+            </form>
+            <div class="tj">
+                <a href="#">三体</a>
+                <a href="#">流浪地球</a>
+                <a href="#">速度与激情</a>
+                <a href="#">盗墓笔记</a>
+                <a href="#">生化危机</a>
+            </div>
+            <!-- 表单 -->
+        </div>
+    </header>
+    <!-- 搜索 -->
+    <nav>
+        <div class="nav">
+            <div class="nav_item">
+                <a href="#">
+                    <p>首页</p>
+                </a>
+            </div>
+            <div class="nav_item">
+                <a href="#">
+                    <p>电影</p>
+                </a>
+            </div>
+            <div class="nav_item">
+                <a href="#">
+                    <p>电视剧</p>
+                </a>
+            </div>
+            <div class="nav_item">
+                <a href="#">
+                    <p>动漫</p>
+                </a>
+            </div>
+            <div class="nav_item">
+                <a href="#">
+                    <p>论坛</p>
+                </a>
+            </div>
+            <!-- 列表 -->
+            <li><a href="login.html">注册</a></li>
+            <li><a href="login.html">登录</a></li>
+        </div>
+    </nav>
+    <div class="gg">公告:如果你喜欢电影网，希望你能把电影网推广给更多的朋友，多谢!</div>
+
+    <div id="container" class="container">
+        <div class="container-fluid" style="background:#fff;padding-top:auto;padding-bottom:15px;">
+            <!-- 首页/电影 -->
+            <ol class="breadcrumb">
+                <li><a href="">首页</a></li>
+                <li><a href="">电影</a></li>
+                <li><span href="">高清在线播放</span></li>
+            </ol>
+
+            <!-- 播放器 -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="movie-title">Ultraman</h1>
+                    <div id="willesPlay">
+                        <div class="playHeader">
+                            <div class="videoName">Ultraman</div>
+                        </div>
+                        <div class="playContent">
+                            <video width="100%" controls="controls" autoplay="autoplay" src="./movie/Ultraman.mp4"></video>
+                        </div>
+
+                        <a class="gengduo" href="#">更多精彩电影>></a>
+                        <footer>
+                            <div class="foot">
+                                <p>
+                                    免责声明:本网站所有内容仅供测试和学习交流。
+                                    <br>若侵犯了您的权益，请发邮件通知站长，邮箱:sample@sample.com
+                                    <br>电影网· VERSION: 1.0.0
+                                </p>
+                            </div>
+                        </footer>
+</body>
+
+</html>
